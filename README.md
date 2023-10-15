@@ -123,6 +123,10 @@ L'apprentissage profond fonctionne en 3 étapes :
 2. **Préparer les données**. La segmentation est un processus qui permet de diviser un dataset en plusieurs sous-ensembles. Les sous-ensembles sont utilisés pour l'apprentissage automatique. La normalisation est un processus qui permet de transformer les données en données normalisées. Les données normalisées sont utilisées pour l'apprentissage automatique. La standardisation est un processus qui permet de transformer les données en données standardisées. Les données standardisées sont utilisées pour l'apprentissage automatique.
 3. **Choisir un algorithme d'apprentissage profond**. L'algorithme d'apprentissage profond est utilisé pour l'apprentissage automatique. La selection de l'algorithme d'apprentissage profond est basé sur le type de données et le type de problème.
 
+## Perceptron (neurone artificiel)
+
+Le perceptron est un algorithme qui permet de calculer la sortie d'un neurone. La sortie du neurone est utilisé pour l'apprentissage profond.
+
 ## L'apprentissage par renforcement Application
 
 L'apprentissage par renforcement est utilisé pour :
@@ -138,4 +142,30 @@ La retropropagation est un algorithme qui permet de calculer les poids des neuro
 
 ### Fonction d'activation
 
-La fonction d'activation est une fonction qui permet de calculer la sortie d'un neurone. La sortie du neurone est utilisé pour l'apprentissage profond.
+La fonction d'activation est une fonction qui permet de calculer la sortie d'un neurone. Il est possible introduce non linéarité dans le model en utilisant une fonction d'activation non linear.
+
+- Step function
+- Sigmoid function
+- Linear function
+- Tanh function
+- ReLu (Rectified Linear Unit) function
+  $$ ReLu(x) = max(0, x) $$
+
+## Gradient descent
+
+When predicting the value of a variable, the error is the difference between the predicted value and the actual value. The error is used to calculate the gradient. The gradient is used to update the weights of the neurons. The weights of the neurons are used to predict the value of the variable. To improve the model's prediction, we want to minimize the loss. Gradient descent is an optimization algorithm which is used to iterate through different combinations of weights to find the combination of weights that minimizes the loss.
+
+Which direction?
+$$ \sigma(x) = \frac{1}{1 + e^{-x}} $$
+
+## Hyperparameters
+
+Les hyperparamètres sot des parametres qui pu être changé.
+
+## Transformers
+
+### Comment fonctionne un transformer ?
+
+- Google researchers 2017 - [attention is all you need](https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf)
+
+## Natural Language Processing (NLP)
